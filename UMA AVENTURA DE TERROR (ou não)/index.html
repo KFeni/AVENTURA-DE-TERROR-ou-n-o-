@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Assasina</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você está dirigindo para sua casa depois de um dia muito cheio, durante o caminho você encontra uma pessoa pedindo carona. O que você vai fazer?</p>
+            <button class="btn-proximo" data-proximo="1">Passa direto</button>
+            <button class="btn-proximo" data-proximo="2">Dar carona</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você passa direto, porque está cansado.Ao chega em casa, você estaciona o carro e pega as chaves, entra pela porta da frente e deixa as suas coisas no sofá. O que vai fazer agora?</p>
+            <button class="btn-proximo" data-proximo="3">Vai escovar os dentes e dormi</button>
+            <button class="btn-proximo" data-proximo="4">Vai preparar um lanche e escova os dente e dormi</button>
+            <button class="btn-proximo" data-proximo="5">Vai preparar um lanche e depois vai assisti na sala</button>
+        </div> 
+        <div class="passo" id="passo-2">
+             <p>Você para o carro na frente da pessoa e abre a janela, você diz: “Quer uma carona pra casa?" A pessoa responde: “ Claro”, a pessoa abre a porta do banco de trás e se senta,  você segue viagem. Qual é a sua pergunta?</p>
+             <button class="btn-proximo" data-proximo="6">Onde você mora?</button>
+             <button class="btn-proximo" data-proximo="7">Você mora por aqui?</button>
+             <button class="btn-proximo" data-proximo="8">Você tem sorte que passo de carro por aqui</button>
+            </div>
+        <div class="passo" id="passo-3">
+           <img src="cenario-passo34.png" alt="">
+           <p>Você decide ir escova os dentes e ir para cama. Final 2/10: uma noite tranquila</p>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo34.png" alt="">
+            <p>Você decide ir preparar um lanhe antes de dormi. Depois de preparar e comer o lanche, você vai escova os dentes e dormi. Final 3/10: domindo de barriga cheia</p>
+         </div>
+         <div class="passo" id="passo-5">
+           <img src="cenario-passo5.png" alt="">
+            <p>Você decide ir preparar um lanhe e assistir alguma coisa na TV. Depois de preparar o lanche, você vai para sala e se sentar no sofá e liga a TV, você vai para o canal de noticias e ver que a policia esta procurando uma assasina que gosta de colecionar olhos, corações e roupas das vitimas, você fica precupado, e muda de canal.
+                Quando terminou de comer, você foi escova os dentes e vou dormi, pensando “Calma, isso não vai acontecer comigo, quais as chances dela me pegar”. Final 4/10: uma noite tranquila?</p>
+         </div>
+         <div class="passo" id="passo-6">
+             <p>A pessoa responde:” “Moro na rua Tink Bred”.
+                Você vai para essa rua. Depois de chegar na rua, o que você pergunta?</p>
+                <button class="btn-proximo" data-proximo="9">È aqui que você mora?</button>
+         </div>
+         <div class="passo" id="passo-7">
+             <p>A pessoa responde: “Sim, perto de uma quadra, você sabe onde fica?”,
+                você responde: “Sei onde fica”. Depois de chegar no loca. O que você pergunta?</p>
+               <button class="btn-proximo" data-proximo="9">È aqui que você mora?</button>
+               <button class="btn-proximo" data-proximo="10">Chegamos, é aqui?</button>
+         </div>
+         <div class="passo" id="passo-8">
+              <p>A pessoa responde: “Obrigado por me dar uma carona, moro na rua Tink Bred”.
+                    Você vai para essa rua. Depois de chegar na rua. O que você pergunta?</p>
+                <button class="btn-proximo" data-proximo="9">È aqui que você mora?</button>
+                <button class="btn-proximo" data-proximo="10">Chegamos, é aqui?</button>
+         </div>
+         <div class="passo" id="passo-9">
+               <p>A pessoa responde: “Sim bem aqui, obrigado”
+                        A pessoa abre a porta de trás do banco, sai e fecha a porta do carro, você vai para casa e quando chegou você olhar para trás do carro e ver um livro pequeno “ela esqueceu o livro do meu carro” você pensou. O que fazer?</p>
+                <button class="btn-proximo" data-proximo="11">Pegar o livro , entra dentro de casa para devolver amanhá</button>
+                <button class="btn-proximo" data-proximo="12">Volta para devolver</button>
+         </div>
+         <div class="passo" id="passo-10">
+               <p>A pessoa responde: “Sim bem aqui, obrigado”
+                            A pessoa abre a porta de trás do banco, sai e fecha a porta do carro, você vai para casa e quando chegou você olhar para trás do carro e ver um livro pequeno “ela esqueceu o livro do meu carro” você pensou.O que fazer?</p>
+                <button class="btn-proximo" data-proximo="11">Pegar o livro , entra dentro de casa para devolver amanhá</button>
+                <button class="btn-proximo" data-proximo="12">Volta para devolver</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Você decide devolver amanha, pega o livro e entra dentro de casa.
+                Você fica curioso, o que tipo de livro era. O que você vai fazer?</p>
+             <button class="btn-proximo" data-proximo="19">Esquece disso e preparar um lanche e se senta no sofá para assisti</button>
+             <button class="btn-proximo" data-proximo="20">Você ler o livro</button>
+       </div>
+        <div class="passo" id="passo-12">
+              <p>Você decide volta para devolver o livro.
+                Quando chegou na rua da moça, você tenta achar a casa dela, mas sem sucesso.A pessoas na rua, o que fazer?</p>
+               <button class="btn-proximo" data-proximo="13">Perquanta a eles</button>
+               <button class="btn-proximo" data-proximo="14">Volta para casa</button>
+         </div>
+         <div class="passo" id="passo-13">
+            <p>Você chegar perto das pessoas e pergunta: “OI boa noite, por acaso vocês sabe onde mora a dona desse livro?”
+                As pessoas olham o livro que esta na sua mão e respode: “È aquela casa ali” Você agradecer, casa ficava na outra rua, entãp você vai até lá. Depois de chegar na frente da porta, o que vai fazer?</p>
+             <button class="btn-proximo" data-proximo="15">Tocar a campainha e entragar pessoalmente</button>
+             <button class="btn-proximo" data-proximo="16">Tocar a campainha e deixar o livro no chão</button>
+       </div>
+       <div class="passo" id="passo-14">
+        <p>Você fica com vegoonha e decide devolver amanha.
+            Você fica curioso, o que tipo de livro era. O que você vai fazer?</p>
+         <button class="btn-proximo" data-proximo="19">Esquece disso e preparar um lanche e se senta no sofá para assistir</button>
+         <button class="btn-proximo" data-proximo="20">Você ler o livro</button>
+       </div>
+       <div class="passo" id="passo-15">
+        <p>Você tocar a campainha, barulho de passos vindo da direção da porta e ela se abre.
+            A moça estava diferente, um pouco séria, mas você fala: “ Oi boa noite, você esqueceu o seu livro no meu carro”. A moça responde: “ Muito obrigado, por caso você gostaria de entrar?”. O que você vai fazer?</p>
+     <button class="btn-proximo" data-proximo="17">Você aceita</button>
+     <button class="btn-proximo" data-proximo="18">Você recusa</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Você tocar a campainha e deixa o livro no châo.
+                Você volta para o carro e vai para casa feliz que você vez uma coisa boa.Depois de estaciona o carro e pega as chaves, entra pela porta da frente e deixa as suas coisas no sofá.O que vai fazer agora?</p>
+         <button class="btn-proximo" data-proximo="3">Vai escovar os dentes e dormi</button>
+         <button class="btn-proximo" data-proximo="4">Vai preparar um lanche e escova os dente e dormi</button>
+         <button class="btn-proximo" data-proximo="23">Vai preparar um lanche e se senta no sofá para assistir</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <img src="cenario-passo17.png" alt="">
+             <p>Você aceita o convide, o que pode tá de errado.
+                Quando entra você toma um golpe na cabeça e desmaia.
+                Quanto acorda, você esta num porão e ve a moça vindo na sua direção e ela fala: “como os homens sâo burros”, você tenta perqunta, mais ela puxa uma arma e atira em você.
+                Você morreu
+                
+                Final 1/10:Você é burro!</p>
+          </div>
+          <div class="passo" id="passo-18">
+            <p>Você recusa o convide educadamente, mais a mulher não ficou contede, você fala: “Tenha uma boa notite”
+                Você volta para o seu carro e dirigui ate sua casa, sabendo que vez uma coisa boa. Deppis de chegar em,o que vai fazer?</p>
+         <button class="btn-proximo" data-proximo="3">Vai escovar os dentes e dormi</button>
+         <button class="btn-proximo" data-proximo="4">Vai preparar um lanche e escova os dente e dormi</button>
+         <button class="btn-proximo" data-proximo="23">Vai preparar um lanche e se senta no sofá para assistir</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <img src="cenario-passo5.png" alt="">
+             <p>Você decide ir preparar um lanhe e assistir alguma coisa na TV.
+                Depois de preparar o lanche, você vai para sala e se sentar no sofá e liga a TV.
+                Você vai para o canal de noticias e ver que a policia esta procurando uma assasina que gosta de colecionar olhos, corações e roupas das vitimas, você fica precupado, e muda de canal.
+                Quando terminou de comer, você vou escova os dentes e vou dormi, pensando “Calma, isso não vai acontecer comigo, quais as chances dela me pegar”
+                
+                Final 4/10: uma noite tranquila?</p>
+          </div>
+          <div class="passo" id="passo-20">
+            <p>Você decide olhar um pouco o livro e quando viu era só um livro de receitas com a aescrita deconhecida.
+                Você não entende a que esta escrito no livro e to nada as luzes de sua casa deligaram e você deixa o livro na sala.
+                Você pegar uma lanterna e vou ver a caixa de fusiveis lá fora, você consiguiu volta a energia da casa e quando voltou para dentro da casa tudo tava iluminado, mais quanto chegou na sala o livro desapareceu.
+                Você tenta procurar o livro, debaixo do sofá, nas estandes e todo quando lugar da sala, você fica apavorado e quando estava procurando o livro, você ouve uma risada na cozinha e quando vou olhar viu uma mulher cozinhando, você não entende o que esta acotecendo e pergunta quem ele era, ela vira para você e tu ver que era amesma mulher que você deu uma carona, ela respomde: “Oi moço, esqueci meu livro no seu carro, então vi busca ele, mais você gostaria de provar essa sopa que eu fiz?
+                O que você vai fazer?</p>
+         <button class="btn-proximo" data-proximo="21">Provar</button>
+         <button class="btn-proximo" data-proximo="22">Não provar</button>
+            </div>
+            <div class="passo" id="passo-21">
+                <img src="cenario-passo21.png" alt="">
+                 <p>Você decide provar a sopa, mais tem medo que estaja envenenado, a mulher fica feliz e pega uma colher e leva para perto da sua boca.
+                    Você fica com medo, mais não tem como escapar, você provar e estava delicioso e fala para ela que a sopa esta boa e deliciosa e pergunta o que tinha na sopa, ela responde: “Tem vegetais, temperos, carne humana e suco de laranja”.
+                    Você fica confuso e pergunta: “Carne de que?, ela responde bem rapida: “ De boi, é carne de boi”, você fica suave e fala para ela como ela entrou na sua casa e ela fala que esqueceu o livro, viu as luzes deligadas e tentou pegar o livro, mais viu o sopa que você fez sem gosto e só acrecentou algum temperos. Você entende tudo e pergunta se que ela queria uma carona de volta para casa e ela aceita a carona.
+                     Depois de levar ela para casa dela, você decide pega a sopa e tomar la na sala vendo TV e qundo chegou no canal de noticia, você fica assutado, porque a mulher que tava na sua cozinha, era uma assasina procurada e ela era a mesma mulher que você teu uma carona.
+                    Você tenta processa tudo que aconteceu, mas você toma a sopa, porque tava boa.
+                    
+                    Final secreto: Salvo pelo gongo</p>
+              </div>
+            </div>
+            <div class="passo" id="passo-22">
+                <img src="cenario-passo22.png" alt="">
+                 <p>Você decide não provar e fala para ela que vai chamar a policia, mas ela fala: “A que pena”, e tira uma arma da cintura e atira em você, te matando.
+
+                    Final 10/10: mais um ingedinte.</p>
+              </div>
+              <div class="passo" id="passo-23">
+                <p>Você decide ir preparar um lanhe e assistir alguma coisa na TV.
+                    Depois de preparar o lanche, você vai para sala e se sentar no sofá e liga a TV.
+                    Você vai para o canal de noticias e ver que a policia esta procurando uma assasina que gosta de colecionar olhos, corações e roupas das vitimas, você reconhecer o rosto da mulher, a mesma que você teu carona.
+                    Você fica com medo e sente algum ruim na sala.
+                    O que fazer?</p>
+             <button class="btn-proximo" data-proximo="24">Liga para a policia</button>
+             <button class="btn-proximo" data-proximo="25">Esquecer disso e dormi</button>
+                </div>
+                <div class="passo" id="passo-24">
+                    <p>Você decide liga para a policia, bem na hora que ouviu um barulho no seu quarto, você liga e fala para policia que tem alguém na casa, a policia fala para você espera  e se esconder até eles chegarem.
+                        Você entende e desliga o celular.
+                        Onde você vai se esconder?</p>
+                 <button class="btn-proximo" data-proximo="26">No sotão</button>
+                 <button class="btn-proximo" data-proximo="27">No parão</button>
+                    </div>
+                    <div class="passo" id="passo-25">
+                        <img src="cenario-passo25.png" alt="">
+                        <p>Você decide esquece disso e ir para cama pensando “Deve ser nada”
+                            Você esta se preparando para dormi, mais quaanto chegou no quareto você viu uma mulher na janela de olhando.
+                            Você fica assutado, a mulher quebra a janela para entra no quarto.
+                            Você decide fugir, mais você leva uma facada na perna  e cai.
+                            Você sente a dor e olhar para a mulher, sorindo para você e eoa diz: “Muito obrigado por devilver meu livro” e de mata sem você responder.
+                            
+                            Final 5/10: mais uma viítima</p>
+                        </div>
+                        <div class="passo" id="passo-26">
+                            <img src="cenario-passo26.png" alt="">
+                            <p>Você decide ir para o sortão, chegando lá, você abre e bloqueia a escada, você ouve barulhos e griros da mulher com raiva, mas ela não acha você.
+                                Depois de um tempo, você ouve os barulhos da sirenes e também deles de chamando, então você tira tudo que tava bolqueando a escada do sotão e vai lá fora.
+                                Você fica aliviado, mais ela não foi pega.
+                                
+                                Final 7/10: Você está salvo, mas iseguro</p>
+                         </div>
+                         <div class="passo" id="passo-27">
+                            <p>Você decide ir se esconder no porão.
+                                Você abre a porta do porão e tranca ela, decendo as escadas, você ouve barulhos e gritos da mulher com raiva e começar a bater na porta do porão com força, você viu duas possibilitades de armas, um martelo ou um manequim.
+                                Qual desse dois objetos você vai usar?</p>
+                         <button class="btn-proximo" data-proximo="28">O martelo</button>
+                         <button class="btn-proximo" data-proximo="29">O manequim</button>
+                            </div> 
+                            <div class="passo" id="passo-28">
+                                <img src="cenario-passo2829.png" alt="">
+                                <p>Você decide pegar o martelo e teve uma ideia.
+                                    A mulher consiguiu arrombar a porta e decendo as escadas siliciosamente, mais quanto ela fico de costa, você deu uma martelada na cabeça dela, que desmaio ela, você fica apavorado e decide subir e esperar a policia chegar.
+                                    Você ouve o policia chegar e quanto foram ao porão e nÂo acharem o corpo, mais tinha sague no chão e viseram uma procura pelas as ruas  e acharam ela, caminhando para casa toda suja de sangue, levaram ela para o hospital e quanto saiu foi presa.
+                                    
+                                    Final 9/10: Você se salvo e a assasina foi presa com dores de cabeça.</p>
+                             </div>
+                             <div class="passo" id="passo-29">
+                                <img src="cenario-passo2829.png" alt="">
+                                <p>Você pega o manequim e teve uma ideia.
+                                    Quanto a mulher consigo arrombar a pota do porão, ela desce as escadas siliciosamente e ver você se escondendo atras da maquina de lavar, ela diz: “você é muito burro”, e ela te pegou, mais pegou o manequin e você sobe as escadas e bloqueia a porta do porão com o sofá e com uma estante, ela fica com raiva e tenta empurra as coisas, mais não consegue.
+                                    Depois de um tempo, você ouve a policia chegando e predendo a mulher.
+                                    Você fica aliviado e com paz, sabendo que ela vai fica na cadeia.
+                                    
+                                    Final 8/10: Você se salvo e a assasina foi presa
+                                    </p>
+                             </div>
+
+                            </main> 
+        
+        
+        
+        <script src="script.js"></script>
+</body>
+</html>
